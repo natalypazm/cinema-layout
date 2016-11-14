@@ -18,6 +18,12 @@ body{
 .logo .buscar{
 	background:#F2F2F2;
 }
+.icono{
+	width:50px;
+	position:absolute;
+	left:210px;
+	top:237px;
+}
 .movie{
 	padding: 60px;
 	vertical-align:20px;
