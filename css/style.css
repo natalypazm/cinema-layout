@@ -21,8 +21,8 @@ body{
 .icono{
 	width:50px;
 	position:absolute;
-	left:210px;
-	top:237px;
+	left:215px;
+	top:245px;
 }
 .movie{
 	padding: 60px;
@@ -38,11 +38,11 @@ body{
 	padding: 8px;
 	width:180px;
 }
-.bot1{
+.bot1 ,.bot3{
 	background-color:#FACC2E;
 	color:white;
 	width: 130px;
-    height:30px;
+    height:35px;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 10%;
@@ -50,19 +50,27 @@ body{
     margin:10px 0;
    
 }
-.icon1{
-	height:20px;
-}
 .bot2{
 	background-color:#FF8000;
 	color:white;
 	width: 130px;
-    height:30px;
+    height:35px;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 10%;
     border:1px solid #FF8000;
     margin-bottom: 50px;
+}
+.bot3{
+	height:70px;
+}
+.fa-youtube-play{
+	height:10px;
+	
+}
+.fa-ticket{
+	height:10px;
+	margin-right:10px;
 }
 /**segunda parte**/
 
@@ -82,14 +90,15 @@ body{
 
 .movie-info{
 	padding-top: 20px;
-	padding-bottom: 20px;
+	margin-left:750px;
 	color: white; 
 }
 .big{
 	font-size: 40px;
 	color: #BDBDBD;
 	padding:20px 0px;
-	padding-bottom: 50px;
+	margin-bottom:40px;
+	border-bottom:1px solid #BDBDBD;
 }
 .all{
 	width: 100px;
