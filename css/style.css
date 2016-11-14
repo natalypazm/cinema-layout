@@ -1,26 +1,166 @@
+body{
+	font-family: arial;
+	font-size: 11px;
+}
+/**primera parte**/
+
+.hero .banner{
+	background:#333 url(../img/banner.jpg) no-repeat;
+	background-size:contain;
+
+}
+.buscar{
+	border:1px solid #D8D8D8;
+	margin-top:5px;
+	color:#BDBDBD;
+
+}
+.logo .buscar{
+	background:#F2F2F2;
+}
 .movie{
-	padding: 40px;
-	vertical-align: 35px;
+	padding: 60px;
+	vertical-align:20px;
 	color:#DCDCDC;
+	font-size:12px;
 }
 .search-box .fa-search{
 	margin-left: -25px;
+	color: #BDBDBD;
 }
 .search-box input{
-	padding: 5px;
+	padding: 8px;
+	width:180px;
+}
+.bot1{
+	background-color:#FACC2E;
+	color:white;
+	width: 130px;
+    height:30px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 10%;
+    border:1px solid #FACC2E;
+    margin:10px 0;
+   
+}
+.icon1{
+	height:20px;
+}
+.bot2{
+	background-color:#FF8000;
+	color:white;
+	width: 130px;
+    height:30px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 10%;
+    border:1px solid #FF8000;
+    margin-bottom: 50px;
+}
+/**segunda parte**/
+
+.estrenos{
+	background-color:#FACC2E;
 }
 .estrenos img{
 	width: 100%;
 }
+.img{
+	height:250px;
+	padding: 25px 0;
+}
 .cartelera img{
 	width: 100%
 }
-.hero .banner{
-	background:#333 url(../img/banner.jpg) no-repeat;
-	background-size: contain;
 
-}
 .movie-info{
 	padding-top: 20px;
-	padding-bottom: 20px; 
+	padding-bottom: 20px;
+	color: white; 
+}
+.big{
+	font-size: 40px;
+	color: #BDBDBD;
+	padding:20px 0px;
+	padding-bottom: 50px;
+}
+.all{
+	width: 100px;
+     height: 100px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 10%;
+     border:1px solid green;
+     padding: 7px 5px;
+     color: green;
+     margin-right: 10px;
+}
+table{
+	margin: 13px;
+	margin-left:0px;
+}
+th{
+	text-align: left;
+	padding-right: 63px;
+
+}
+tr{
+	height:20px;
+}
+
+.bo1{
+	background: #F4FA58;
+}
+/**tercera parte**/
+.info{
+	padding: 80px 0;
+}
+h3{
+	color:#BDBDBD;
+	font-size: 20px;
+}
+.h11,p,h4{
+	color: #BDBDBD;
+}
+.h12{
+	font-size:23px;
+}
+.p1{
+	font-size:20px;
+	margin:16px 0;
+}
+.p2{
+	color:#FF8000;
+	font-size:13px; 
+	margin-top:40px;
+}
+li{
+	list-style:none;
+	border-bottom: 1px solid #BDBDBD;
+	margin:15px 0;
+	padding: 15px 0;
+}
+.more{
+	text-decoration:none;
+	color:#FAAC58;
+}
+.pmore{
+	margin-top:50px;
+	font-size: 13px;
+}
+.imgc{
+	height:300px;
+	padding-bottom:40px;
+}
+/**disclaimer**/
+footer{
+	padding:20px 0;
+	background:#F2F2F2;
+}
+h4{
+	font-size:15px;
+}
+.copy{
+	margin:30px 0;
 }

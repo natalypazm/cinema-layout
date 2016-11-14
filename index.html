@@ -13,14 +13,14 @@
   <!-- Ingresa tu código aqui -->
    <header>
   	<div class="container-fluid">
-  		<div class="row">
+  		<div class="row logo">
   			<div class="col-8">
-  				<img src="img/logo.png" alt="logo"><span class="movie">MOVIE THEATER</span>
+  				<img height="50px" width="400px" src="img/logo.png" alt="logo"><span class="movie">MOVIE THEATER</span>
   			</div>
 
   			<div class="col-4">
   				<div class="search-box">
-  					<input type="text" placeholder="Buscar..." name="search_box">
+  					<input class="buscar" type="text" placeholder="Buscar..." name="search_box">
   					<span class="fa fa-search"></span>
   				</div>
   				
@@ -28,56 +28,51 @@
   		</div>
   	</div>
   </header>
-  
   <section class="hero">
- 	<div class="container-fluid">
+ 	
  		<div class="row banner">
  			<div class="col-8 ">
  				<img src="img/icono.jpg" width="100">
  			
  			</div>
  			<div class="col-4 movie-info">
- 				<h1>BIG HERO 6</h1>
- 				<span>All Age</span> Don`t hall,chris williamns
+ 				<h1 class="big">BIG HERO 6</h1>
+ 				<span class="all"><strong>All Age</strong></span> Don`t Hall,Chris Williamns
  				
  				<table>
  					<tr>
  						<th>Ratting</th>
- 						<td>8,5,10</td>
+ 						<td>: 8,5/10</td>
  					</tr>
 
  					<tr>
  						<th>Genre</th>
- 						<td>Animation,Action,Comedy</td>
+ 						<td>: Animation,Action,Comedy</td>
  					</tr>
 
  					<tr>
  						<th>Release</th>
- 						<td>Noviembre 2014</td>
+ 						<td>: 7 November 2014</td>
  					</tr>
  				</table>
- 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis mollitia eum voluptatem aperiam dignissimos minima enim fugiat perspiciatis id dolorum nisi pariatur atque a, iusto consectetur corrupti cumque ducimus quas!</p>
- 				<input type="button" value="Watch trailer">
- 				<button>Book ticket</button>
+ 				<p>The special bond that between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada, who team up with a group of friends to form a band of high tech heroes</p>
+ 				<button class="bot1"><img class="icon1" src="img/icon.png"/>WATCH TRAILER</button> <br>
+ 				<button class="bot2">BOOK TICKET</button>
  				
 
  			</div>
  		</div>
- 	</div>
+ 	
  </section>
-	
-
-
-  <section class="estrenos">
+ <section class="estrenos">
   	<div class="container-fluid">
   		<div class="row">
-  			<div class="col-2"><img src="img/imagen1.jpg" alt=""></div>
-  					<div class="col-2"><img src="img/imagen2.jpg" alt=""></div>
-  					<div class="col-2"><img src="img/imagen3.jpg" alt=""></div>
-  					<div class="col-2"><img src="img/imagen4.jpg" alt=""></div>
-  					<div class="col-2"><img src="img/imagen5.jpg" alt=""></div>
-  					<div class="col-2"><img src="img/imagen6.jpg" alt=""></div>		
-  			</div>
+  					<div class="col-2"><img class="img" src="img/imagen1.jpg" alt=""></div>
+  					<div class="col-2"><img class="img" src="img/imagen2.jpg" alt=""></div>
+  					<div class="col-2"><img class="img" src="img/imagen3.jpg" alt=""></div>
+  					<div class="col-2"><img class="img" src="img/imagen4.jpg" alt=""></div>
+  					<div class="col-2"><img class="img" src="img/imagen5.jpg" alt=""></div>
+  					<div class="col-2"><img class="img" src="img/imagen6.jpg" alt=""></div>		
   		</div>
   	</div>
   </section>
@@ -88,17 +83,19 @@
 
   <section class="contenido">
  	<div class="container-fluid">
- 		<div class="row">
+ 		<div class="row info">
  			<div class="col-6">
- 				<small><h1>Don´t be late,</small><br>
- 				Book your ticket now!
- 				</h1>
+ 				<h1 class="h11">Don´t be late,</h1><br>
+ 				<h1 class="h12">Book your ticket now!</h1>
+ 				<p class="p1">Easy,simple & fast.</p>
+ 				<button class="bot2">BOOK TICKET</button>
+ 				<small><p class="p2">Get Discount up to 10% if you are a menmber!</p></small>
  			</div>
  			<div class="col-6">
  				<h3>News</h3>
  				<ul>
  					<li>
- 						<h4>Lorem ipsum</h4>
+ 						<h4>Lorem Ipsum Dolor Sit Amet</h4>
  						<span class="fecha"> Nov 11 2014</span>
  						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus sed iusto corporis reprehenderit est! Perspiciatis nemo ea harum expedita exercitationem voluptatum in animi quos, quo molestiae! Excepturi, quas, incidunt? Corrupti!</p>
  					</li>
@@ -108,7 +105,7 @@
  						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut doloribus cumque et ducimus temporibus enim unde repudiandae aliquid quam nobis porro eum rem, in impedit aperiam explicabo! Voluptas, repellat, reprehenderit.</p>
  					</li>
  				</ul>
- 				<p><a href="">MORE</a></p>
+ 				<p class="pmore"><a class="more" href=""><strong>MORE</strong></a></p>
  			</div>
  		</div>
  	</div>
@@ -118,23 +115,23 @@
  <section class="cartelera">
  	<div class="container-fluid">
  		<div class="row">
- 			<div class="col-3"><img src="img/imagen6.jpg" alt=""></div>
- 			<div class="col-3"><img src="img/imagen7.jpg" alt=""></div>
- 			<div class="col-3"><img src="img/imagen8.jpg" alt=""></div>
- 			<div class="col-3"><img src="img/imagen9.jpg" alt=""></div>
+ 			<div class="col-3"><img class="imgc" src="img/imagen6.jpg" alt=""></div>
+ 			<div class="col-3"><img class="imgc" src="img/imagen7.jpg" alt=""></div>
+ 			<div class="col-3"><img class="imgc" src="img/imagen8.jpg" alt=""></div>
+ 			<div class="col-3"><img class="imgc" src="img/imagen9.jpg" alt=""></div>
  		</div>
  	</div>
  </section>
  <footer>
  	<div class="container-fluid">
  		<h4>Disclaimer</h4>
- 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut doloribus cumque et ducimus temporibus enim unde repudiandae aliquid quam nobis porro eum rem, in impedit aperiam explicabo! Voluptas, repellat, reprehenderit.</p>
+ 			<p>This is freebles and not an official webside, I have no intention of disclose any movie, brand, news.<br>My goal here is to trailer or excersice my skil and share this freebies.</p>
  			<p class="copy">
- 				Created by Fikristudio in Indonesia
+ 				Created by Fikristudio in <strong>Indonesia</strong>
  			</p>
  			<p>
- 				Driblle <br>
- 				Be.net <br>
+ 				Driblle.com/bagus.firl <br>
+ 				Be.net/bagusfriki <br>
  				www.fikristudio.com
  			</p>
  	</div>
